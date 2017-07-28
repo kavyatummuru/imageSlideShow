@@ -1,0 +1,26 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 29, 2016, 2:16:54 PM
+    Author     : KillerBee
+*/
+
+#slider {
+    opacity:1;
+    transition: opacity 1s;
+    width: 500px;
+    height:500px;
+}
+
+#slider.fadeOut {
+    opacity:0;
+}
+
+div{
+    width:80%;
+    margin:5%;
+    background-color: grey;
+}
